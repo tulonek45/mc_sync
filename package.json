@@ -1,0 +1,6 @@
+{
+    "name": "mc_sync",
+    "scripts": {
+        "run": "python run.py src/main.py"
+    }
+}
