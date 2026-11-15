@@ -1,1 +1,11 @@
-{}
+{
+    "server_path": "%LOCALAPPDATA%\\McSync\\server",
+    "jar_name": "server.jar",
+    "world_name": "world",
+    "jre_path": "%ProgramFiles%\\Eclipse Adoptium\\jdk-25.0.5.8-hotspot\\bin\\java.exe",
+    "min_ram": "2G",
+    "max_ram": "8G",
+    "jvm_args": [],
+    "server_args": [],
+    "stop_timeout_s": 120
+}
