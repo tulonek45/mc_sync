@@ -6,6 +6,9 @@
     "min_ram": "2G",
     "max_ram": "8G",
     "jvm_args": [],
-    "server_args": [],
-    "stop_timeout_s": 120
+    "server_args": [
+        "nogui"
+    ],
+    "save_timeout_s": 120,
+    "stop_timeout_s": 60
 }

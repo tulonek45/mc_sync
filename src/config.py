@@ -20,6 +20,8 @@ class ServerConfig:
     max_ram: str = "4G"
     jvm_args: list[str] = field(default_factory=list)
     server_args: list[str] = field(default_factory=lambda: ["nogui"])
+
+    save_timeout_s: int = 120
     stop_timeout_s: int = 120
 
 
